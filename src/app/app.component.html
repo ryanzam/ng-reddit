@@ -4,15 +4,17 @@
   <form>
     <fieldset class="form-group">
       <label for="title">Title :</label>
-      <input type="text" class="form-control" name="Title" placeholder="Add a title">
+      <input type="text" class="form-control" name="Title" placeholder="Add a title" #newtitle>
     </fieldset>
     <fieldset class="form-group">
       <label for="link">URL :</label>
-      <input type="text" class="form-control" name="link" placeholder="Add a url">
+      <input type="text" class="form-control" name="link" placeholder="Add a url" #newlink>
     </fieldset>
 
-    <button class="btn btn-primary" (click)="addArticle()">Share</button>
+    <button class="btn btn-primary" (click)="addArticle(newtitle, newlink)">Share URL</button>
 
   </form>
+
+  <app-article></app-article>
 
 </div>
