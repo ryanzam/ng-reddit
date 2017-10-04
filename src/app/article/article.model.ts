@@ -14,6 +14,7 @@ export class Article {
 
   voteUp(): void {
     this.votes += 1;
+    console.log('voteup clicked');
   }
 
   voteDown(): void{
