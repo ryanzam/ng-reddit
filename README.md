@@ -1,7 +1,9 @@
-<<<<<<< HEAD
-# NgReddit
+
+# Simple Reddit like app in angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+
+[DEMO](https://sharelinkapp.firebaseapp.com/)
 
 ## Development server
 
@@ -27,7 +29,4 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# ng-reddit
-reddit like app in angular4
->>>>>>> 0bb6b1041c237f431dc2302003f73633de876b80
+
