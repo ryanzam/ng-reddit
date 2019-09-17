@@ -14,7 +14,7 @@ export class AppComponent {
     this.articles = [
       new Article('Angular 4', 'http://anuglar.io', 8),
       new Article('YouTube', 'http://youtube.com', 11),
-      new Article('Ramzan', 'http://ranjamalee.com', 50)
+      new Article('Github', 'http://https://github.com', 50)
     ]
   }
 
